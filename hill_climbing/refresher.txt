@@ -1,0 +1,2 @@
+Linear Regression math refresher: https://www.youtube.com/watch?v=3dhcmeOTZ_Q
+
