@@ -1,0 +1,7 @@
+This model really needs more data.
+For instance, 0,0,0,0 should, by all accounts be bad weather, but it has confidently called it good at 100%.
+
+This is far too overfitting, and the data is far too small.
+Also, the good vs bad weather actual value is far too subjective.
+
+This is just for exemplifying a decision tree model.
