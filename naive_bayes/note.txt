@@ -1,0 +1,7 @@
+This is just an example.  Naive Bayes does not work great with such a small list of token words.
+For instance, "I need you to pick up the kids tomorrow" predicts spam at over 99%.
+
+This could be improved by:
+- a recursive model
+- a larger data set
+- removal of certain tokens from computation (such as 'and', 'a', 'or')
