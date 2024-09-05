@@ -56,5 +56,12 @@ for i in range(1_000_000):
     elif random_b == 1:
         b1 -= random_adjust
 
+# plot the regression using the function below
+import matplotlib.pyplot as plt
+
+plt.scatter([p.x for p in points], [p.y for p in points])
+plt.plot([p.x for p in points], [predict_probability(p.x) for p in points])
+plt.show()
+
 print("1.0 / (1 + exp(-({0} + {1}*x))".format(b0, b1))
 print("BEST LIKELIHOOD: {0}".format(math.exp(best_likelihood)))
